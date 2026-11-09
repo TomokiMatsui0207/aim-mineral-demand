@@ -1,0 +1,8 @@
+{
+  "aim_parent_commit": null,
+  "aim_core_commit": null,
+  "aim_data_commit": null,
+  "source_output_id": null,
+  "status": "provisional",
+  "note": "Fill with the versions that actually produced the input files, not the latest installed versions."
+}

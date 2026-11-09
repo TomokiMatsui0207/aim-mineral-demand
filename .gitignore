@@ -1,0 +1,39 @@
+# Private model inputs, original literature data, native exports and run outputs
+/input/
+/originals/
+/output/
+/outputs/
+/results/
+/figures/
+/data/
+/local_run/
+/artifacts/
+*.gdx
+*.g00
+*.lst
+*.log
+*.parquet
+*.csv
+*.csv.gz
+*.xlsx
+*.xls
+*.pdf
+*.png
+*.zip
+*.tar.gz
+*.sql
+# Local settings / credentials / Python environments
+.env
+.env.*
+*.local.json
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+.vscode/
+# Only deliberately synthetic input examples may be tracked.
+!/examples/synthetic_inputs.csv

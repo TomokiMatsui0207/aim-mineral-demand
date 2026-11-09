@@ -1,0 +1,62 @@
+[
+  {
+    "file": "analysis/grid_penelope_2100.py",
+    "original_sha256": "391cc2e480593532d514d72e1c88962a4110aaaa77de4c9e0a3ca0b5e23d80a3",
+    "public_sha256": "6257dcba5d4707dcba65f385c93556e8dbd982d2679f637a48b4106d61c88be1",
+    "change": "project-root resolution only"
+  },
+  {
+    "file": "analysis/harmonize_energy_v2.py",
+    "original_sha256": "2f07b9af8ffd5286dfcff601544661e3cd5097c8f805b43d16b497c6e7a62f76",
+    "public_sha256": "a7720b1e09d1113516a9e87738d677f0cc444cb6ba765fae8d97f7e10cb15e55",
+    "change": "project-root resolution only"
+  },
+  {
+    "file": "analysis/integrate_all_sectors_conditional.py",
+    "original_sha256": "0679f8e8205c9c9095d13d0b17f1577f6a5aaa883a94a3fb3eb5613eaecfeea6",
+    "public_sha256": "c42eef4bd4f3ba9d84343bb9bc2ee9a73de06a12dd6946435082f4a966965adf",
+    "change": "project-root resolution only"
+  },
+  {
+    "file": "analysis/integrate_energy_defined_v4.py",
+    "original_sha256": "a8e9eb1c720b30eb7cc5618a9f8999f2ac772e45ca47eaa485a7006b1a41496b",
+    "public_sha256": "8d3e24d969d6bcdb9fff0308a3669532244561677dc5205e58b17db449b03f69",
+    "change": "project-root resolution only"
+  },
+  {
+    "file": "analysis/integrate_energy_native_v3.py",
+    "original_sha256": "60c01b79cbcdb04a3ea8ffc2b5b20ed0b2433c7d848e1e440b6e9e1c340210b9",
+    "public_sha256": "297172f06499ef8377002654d90d8e9fb0c1a0e1a002cdf29fa2db74004a5a01",
+    "change": "project-root resolution only"
+  },
+  {
+    "file": "analysis/model.py",
+    "original_sha256": "085f65db0f27021c85608dd97374d3b493c3f95a14b2161167a90b4194efa5a8",
+    "public_sha256": "085f65db0f27021c85608dd97374d3b493c3f95a14b2161167a90b4194efa5a8",
+    "change": "unchanged"
+  },
+  {
+    "file": "analysis/reconcile_wind_ree_v6.py",
+    "original_sha256": "9e61bf56171afab10de765631946184503ea3fb8e5edd63ff63638e406d4a5c4",
+    "public_sha256": "2640f62960d1b0f7f245c7f7b3f1c519e43694c3e76687e9c3004af89f41ad5c",
+    "change": "project-root resolution only"
+  },
+  {
+    "file": "analysis/resolve_energy_basis.py",
+    "original_sha256": "b971701b40a7cc7f9a04e5797b8151170dad1919ab86f78a73e86abe8059ec18",
+    "public_sha256": "8940e12d912ff54a8654391e3395d61d3e1c04053e781c744cde0da1b6503eeb",
+    "change": "project-root resolution only"
+  },
+  {
+    "file": "analysis/resolve_solar_overlap_v5.py",
+    "original_sha256": "c56b7b341db0f5e6b3a17054801fd51b725304eab04d1021b086be5524bfbd92",
+    "public_sha256": "d29d21855e3c14d595264d89910ab2d15ed232fb541b0c3a9dbb5e47c2e6c0ad",
+    "change": "project-root resolution only"
+  },
+  {
+    "file": "analysis/solar_capacity_basis_scenarios.py",
+    "original_sha256": "4701c03ab5d5505555e2a6d6929f029acdd225716769f8352be9ee0f8f014f5a",
+    "public_sha256": "cc4d4ee3fc768dd5c7428a6150f516ee99db46a661687e431e3d7832c652aee3",
+    "change": "project-root resolution only"
+  }
+]
