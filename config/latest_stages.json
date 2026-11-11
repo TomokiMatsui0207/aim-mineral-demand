@@ -144,6 +144,18 @@
         "technology_substitution_20261111/all_sectors_with_substitution_CONDITIONAL.csv.gz"
       ],
       "preflight_scope": "主要集計入力のみ。詳細はソースのread_csv/read_excel参照。"
+    },
+    "results32": {
+      "entry": "result32_20261111/build.py",
+      "description": "共通32鉱物に限定した全部門年次・累積需要と残る課題。数値結果は非公開。",
+      "required": [
+        "vehicle_allsector_extension_20261111/all_sectors_extended_CONDITIONAL.csv.gz",
+        "vehicle_allsector_extension_20261111/active_inventory_coverage.csv",
+        "mineral2100/originals/Pelotte*/Data/Scope of the study.xlsx",
+        "mineral2100/originals/Pelotte*/Data/Prod&Demand_Other_Sectors.xlsx",
+        "mineral2100/reserve40_complete_20261111/40鉱物_埋蔵量と推計参照値.csv"
+      ]
     }
-  }
+  },
+  "current_reporting_scope": "common32"
 }

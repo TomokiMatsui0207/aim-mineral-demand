@@ -247,6 +247,14 @@
       "source_sha256": "7b171709a07e0c1fbf0f73a6e23fcf2985f63b0464e6131833bcbed89b095238",
       "public_sha256": "0beebee1f8444cb0b27671b48534f11c738280c04f36b4650bfa6fcf6f7d0e72",
       "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/result32_20261111/build.py",
+      "source": "result32_20261111/build.py",
+      "source_sha256": "6aa9deab2461379e87beb5843d255424cb5066b9bb9156f7faa6d206b7d9775a",
+      "public_sha256": "348b80ff26133bb28ef102c34aa1bfa52c450fea1e61a68ccb238eaa0977333d",
+      "changes": "workspace root relative to latest snapshot; numerical logic unchanged"
     }
-  ]
+  ],
+  "current_reporting_scope": "32 minerals shared with Penelope; C, La, Ce, Mg, Ti, Sc, Pt, Ir deferred; historical40 code retained"
 }
