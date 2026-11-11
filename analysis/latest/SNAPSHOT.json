@@ -1,0 +1,252 @@
+{
+  "date": "2026-11-11",
+  "scope": "code-only snapshot; private inputs and prepared intermediates are required",
+  "full_raw_to_final_pipeline": false,
+  "files": [
+    {
+      "file": "analysis/latest/mineral2100/update_comparison_20261110/recompute_all_with_updated_native.py",
+      "source": "mineral2100/update_comparison_20261110/recompute_all_with_updated_native.py",
+      "source_sha256": "9a51c3cafe3035e084f6fd62fd23d53973d605f3bce4ef16aa085391d39ddade",
+      "public_sha256": "51901830b321b6ced3d9b576b8d752f4e07966cc109208afce56872815481213",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/complete_vehicle_components_v4.py",
+      "source": "mineral2100/complete_vehicle_components_v4.py",
+      "source_sha256": "7cd340d2edf46f49751e5ca25fa13983d85e858f47e1bbefc4eba2480c336324",
+      "public_sha256": "647bdb6365ed33a6607e415b400c0a8c8bf76d96fc9186113dfe99ff3c999f78",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/three_tasks_20261111/resolve_units.py",
+      "source": "three_tasks_20261111/resolve_units.py",
+      "source_sha256": "ad009da23467bad649eb66b25d99e69d058e82826bd92aa7b68ef1593c04fe58",
+      "public_sha256": "8bd38998872b07bd2009ab3e6da4ca094f184b954f09d2065dabdde686decccd",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/vehicle_allsector_extension_20261111/build.py",
+      "source": "vehicle_allsector_extension_20261111/build.py",
+      "source_sha256": "f4b1d8ad96a5aec7c65c122271b6549d641722cc0ce34f6840a2f9762dd02b8e",
+      "public_sha256": "fc60eb2392ddc1b61b34c44215ec58ab402affa5ac37fbc7bf353850e9540bd5",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/technology_substitution_20261111/optimise.py",
+      "source": "technology_substitution_20261111/optimise.py",
+      "source_sha256": "b4d47ced9f518eb4960758e8df07308531be75b445d3496252c427ee60c1fd9d",
+      "public_sha256": "dc47e39d8fda2e76d0b78a0a89a19c49fa20b33ebf7eafeeca26b33a115f056a",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/penelope_constraints2050_20261111/calculate.py",
+      "source": "penelope_constraints2050_20261111/calculate.py",
+      "source_sha256": "308365b7bffc7da87c04da5606939ee5bbce249b8802687c3a81e4aac416dbe2",
+      "public_sha256": "5e15fc89e253fadb737883752bd1250cc7f2b23c00da8a6eb5ec18b85efffbd0",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/pv_storage_revision_20261111/calculate.py",
+      "source": "pv_storage_revision_20261111/calculate.py",
+      "source_sha256": "7b29e307091fe9bcdd5bd347a85715f373c895d6c91422f2bc79a9fb191561d4",
+      "public_sha256": "ae71974a3e9b19459c989ba64a72ad220e2ea8ccba5ea550231df1031c2482a1",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/pv_storage_revision_20261111/revision.py",
+      "source": "pv_storage_revision_20261111/revision.py",
+      "source_sha256": "c770e3e0c97a3c82c642ce91769bcc88863ff9c5c2c555d13ee1fbdb30b65250",
+      "public_sha256": "305c86986331025b00a75a68a15dd225e46872d7fe77e3af8132e0bd2ef887c7",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/reserve40_complete_20261111/build.py",
+      "source": "mineral2100/reserve40_complete_20261111/build.py",
+      "source_sha256": "7e7c7b91c5066e439e2067820aed7f485234e37aaebe4aa6dd709dc49699d42e",
+      "public_sha256": "648e0b33655e1a9e88f013b08790df2320db8bda9f62e6123933441424f9bd18",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/final_mineral40_20261111/build.py",
+      "source": "final_mineral40_20261111/build.py",
+      "source_sha256": "febb02a4d7b3d4dc10a406c032ebfe48fc4d57d40b036c51e9b1ed19d5115bec",
+      "public_sha256": "af9dcf0fabd143972936d326fe1773e2ad81f5b9e15e4a47e29881c448287513",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/technology_substitution_20261111/test_substitution.py",
+      "source": "technology_substitution_20261111/test_substitution.py",
+      "source_sha256": "8381dc009e9ac896ce496227ca9cd84a9ce57d6e6fd3ebeb269b7de28467bf06",
+      "public_sha256": "c63025233058f25de43d9a305a4f5b57b39ec4860984ff28d2ef85af09d9af90",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/test_complete_vehicle_components_v4.py",
+      "source": "mineral2100/test_complete_vehicle_components_v4.py",
+      "source_sha256": "9cea465d0122233c7fa3c8516741868ef0bb159bfc59f67279a9192bc7995856",
+      "public_sha256": "d689fab82cb85cf2f1e95e9b4a78a7e8432e550eee73dfa5c30578375eb60ba3",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/test_extend_road_vehicles.py",
+      "source": "mineral2100/test_extend_road_vehicles.py",
+      "source_sha256": "320f79165a7ae0ec2dcf3b95d19b4a93422010c3fedc2da8ed099ddd0042df84",
+      "public_sha256": "cea529a584e00352c2e6d38405bf49fb4c497232778158caaa46cbe5d85e7f9f",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/calculate_native_vehicle_demand.py",
+      "source": "mineral2100/calculate_native_vehicle_demand.py",
+      "source_sha256": "58f256cdd40f05765ffcd15bd8d84f9dd9f29200035d615dc595643a5815fc1c",
+      "public_sha256": "791d4788c42ddf21a3d6b295fb087b16a25986e416a0621fffa94f367c0bf551",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/integrate_all_sectors_conditional.py",
+      "source": "mineral2100/integrate_all_sectors_conditional.py",
+      "source_sha256": "0679f8e8205c9c9095d13d0b17f1577f6a5aaa883a94a3fb3eb5613eaecfeea6",
+      "public_sha256": "4165793219eebc61ce4173fdbe6f79c1c1133edffb0bbe63f32ce1209b190cb4",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/reconcile_wind_ree_v6.py",
+      "source": "mineral2100/reconcile_wind_ree_v6.py",
+      "source_sha256": "9e61bf56171afab10de765631946184503ea3fb8e5edd63ff63638e406d4a5c4",
+      "public_sha256": "b57d9bb2a713073eb5d99ab074cfa095180f05b791411e98f7aa66f41f5ddf17",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/harmonize_energy_v2.py",
+      "source": "mineral2100/harmonize_energy_v2.py",
+      "source_sha256": "2f07b9af8ffd5286dfcff601544661e3cd5097c8f805b43d16b497c6e7a62f76",
+      "public_sha256": "42470f53b4679128bc716a7436c3e48ffdff97aa12ecca339650a543a2ea4c85",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/integrate_energy_native_v3.py",
+      "source": "mineral2100/integrate_energy_native_v3.py",
+      "source_sha256": "60c01b79cbcdb04a3ea8ffc2b5b20ed0b2433c7d848e1e440b6e9e1c340210b9",
+      "public_sha256": "25792b74a2d7ccff7ec6670f3c50fd983d28f2a44052b3bc4fd3d198bfebd109",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/extend_road_vehicles.py",
+      "source": "mineral2100/extend_road_vehicles.py",
+      "source_sha256": "138d58b988b58ed036dd4b5c695de39429331f3ccd5fb8f02a804fe453e4999d",
+      "public_sha256": "601a63bc7cae72059555a82775ef3fc2612b326ca02259fb80747ceb7a4667b5",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/update_comparison_20261110/compare_uploaded_iamc.py",
+      "source": "mineral2100/update_comparison_20261110/compare_uploaded_iamc.py",
+      "source_sha256": "2b1de0ad9baa213eab15e8e8688f63102ce4ec42c7d80406a92a529ae531d505",
+      "public_sha256": "820b1e660ecb5a749b11a9695b856ba12f55b9e4820bc36d4d92529538b1435d",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/update_comparison_20261110/compare_fixed_method.py",
+      "source": "mineral2100/update_comparison_20261110/compare_fixed_method.py",
+      "source_sha256": "ceb4a0116c5f4ea79d90a7178c76471788450ce8cc9c1cf71fc8447e24a3f000",
+      "public_sha256": "741f4ab28ed2fc62e4ec7d903465038573077a7d0b24d17a3656a44dab9e89d9",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/model.py",
+      "source": "mineral2100/model.py",
+      "source_sha256": "085f65db0f27021c85608dd97374d3b493c3f95a14b2161167a90b4194efa5a8",
+      "public_sha256": "fad6e7f9b72a28721e710194e544f58eb3e1e3156ae8d876e2a97f5a4d44b008",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/refine_HEV_intensity_v3.py",
+      "source": "mineral2100/refine_HEV_intensity_v3.py",
+      "source_sha256": "709c399bb21a68e7de3a9d66bc5177e021d7a2a0c66d7a2f89701e726e8483e0",
+      "public_sha256": "18e4106d494b8493aed4dda0efc51ff73721b0d2d26664c718973fb79427fe3b",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/integrate_HEV_vehicle.py",
+      "source": "mineral2100/integrate_HEV_vehicle.py",
+      "source_sha256": "696331355f86977db85fbf7015a71e09e107706115cfd553fdb5a2a759178969",
+      "public_sha256": "645ffdefd12539ceee5130f2cc00d79aa2bfab7b5af116ced90f1c4a5bac85b9",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/grid_penelope_2100.py",
+      "source": "mineral2100/grid_penelope_2100.py",
+      "source_sha256": "391cc2e480593532d514d72e1c88962a4110aaaa77de4c9e0a3ca0b5e23d80a3",
+      "public_sha256": "92ad75b38801432de4f18a3cd488868a9574a562154afe2501c42654819627a4",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/resolve_solar_overlap_v5.py",
+      "source": "mineral2100/resolve_solar_overlap_v5.py",
+      "source_sha256": "c56b7b341db0f5e6b3a17054801fd51b725304eab04d1021b086be5524bfbd92",
+      "public_sha256": "2c87d074a9ee29f068ea46b89721ae2ad017b290052dc5859c868f9b330fa43a",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/resolve_energy_basis.py",
+      "source": "mineral2100/resolve_energy_basis.py",
+      "source_sha256": "b971701b40a7cc7f9a04e5797b8151170dad1919ab86f78a73e86abe8059ec18",
+      "public_sha256": "36044eb224f5b4a3dd5e8c396577192e0d935c1d30aea4f80912f0ef193a6f6a",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/refine_HEV_intensity_v2.py",
+      "source": "mineral2100/refine_HEV_intensity_v2.py",
+      "source_sha256": "650e65b1e0fd7c61599764da82188e7667434a82e2da48bdd81fc761ceb00665",
+      "public_sha256": "49eae0ccafea678c6b5cfd7d5cddcb20953e9128f69dd2af66fe205dcfdc9404",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/verify_body_nimh_v3.py",
+      "source": "mineral2100/verify_body_nimh_v3.py",
+      "source_sha256": "68c62f69dc1edc3b3ab4b31c6be1d2b81309541d12ff2b38ad37fc5c2dedcb4d",
+      "public_sha256": "9988bf41480aed377edbcf4c4e180264419230ed1716a95aea262558952b5e83",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/integrate_wang_nimh_v4.py",
+      "source": "mineral2100/integrate_wang_nimh_v4.py",
+      "source_sha256": "dc0d6a1e30e4582d6b3568df6fc739deb50b77beeac5f481225db998af032473",
+      "public_sha256": "f7ea148ed92cf132e50b5cd5931ef80cfa8ca58da5d87a2c5b5a3ecd5f9a8d0e",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/supplement_nimh_AB5_v5.py",
+      "source": "mineral2100/supplement_nimh_AB5_v5.py",
+      "source_sha256": "3f07b1c9d32beb731c644c4038536979df012c058af362e6f63290809609b44e",
+      "public_sha256": "2a91b8e4401bef1644b451dfd6beb5dfcb9e6c1034e4f2ab78d78adaa86864bc",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/integrate_server_exports.py",
+      "source": "mineral2100/integrate_server_exports.py",
+      "source_sha256": "52fb1c4170c64a80a39f6164735e4176d799b40230994358ff7af49e431b91f3",
+      "public_sha256": "aa71dd5ea010bf5797ef774a011b10a9555ac60ded4b2ed17a922e213f8cc59a",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/calculate_ldv_from_export.py",
+      "source": "mineral2100/calculate_ldv_from_export.py",
+      "source_sha256": "1791056b8e4e20c452ff9f3dc3ec2dad21f7b632de4b1e2d75746a9454bb9645",
+      "public_sha256": "db022c4b894d719780d078d7deefa75cfc34fd442f435d2fef27a3421238e62c",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/integrate_energy_defined_v4.py",
+      "source": "mineral2100/integrate_energy_defined_v4.py",
+      "source_sha256": "a8e9eb1c720b30eb7cc5618a9f8999f2ac772e45ca47eaa485a7006b1a41496b",
+      "public_sha256": "91ae265ad5284b9a9ac5ff9ac6f15aa7895a9d9a58024d9fcfa248a952cec6c2",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    },
+    {
+      "file": "analysis/latest/mineral2100/import_workbooks.py",
+      "source": "mineral2100/import_workbooks.py",
+      "source_sha256": "7b171709a07e0c1fbf0f73a6e23fcf2985f63b0464e6131833bcbed89b095238",
+      "public_sha256": "0beebee1f8444cb0b27671b48534f11c738280c04f36b4650bfa6fcf6f7d0e72",
+      "changes": "absolute workspace paths relocated; mineral-name output dependency removed where applicable; AST formatting only otherwise"
+    }
+  ]
+}

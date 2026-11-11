@@ -1,0 +1,149 @@
+{
+  "snapshot_date": "2026-11-11",
+  "stages": {
+    "updated": {
+      "entry": "mineral2100/update_comparison_20261110/recompute_all_with_updated_native.py",
+      "description": "更新版AIMの同方法再集計。旧新比較用の準備済み中間表も必要",
+      "required": [
+        "mineral2100/input/updated_2611091342/native/updated_native_drivers_Baseline.csv",
+        "mineral2100/input/updated_2611091342/native/updated_native_drivers_300C.csv",
+        "mineral2100/input/updated_2611091342/native/updated_native_road_outputs_Baseline.csv",
+        "mineral2100/input/updated_2611091342/native/updated_native_road_outputs_300C.csv",
+        "mineral2100/input/updated_2611091342/AIM_World.csv.gz",
+        "mineral2100/input/units_and_time_basis.csv",
+        "mineral2100/input/imported/wei_intensity_rows.csv",
+        "mineral2100/input/imported/wei_S11_Market_share.csv",
+        "mineral2100/input/imported/penelope_Demand_Network.csv",
+        "mineral2100/input/imported/penelope_Metal_Intensity_Reduction.csv",
+        "mineral2100/output/native_vehicle_demand_two_scenarios/penelope_40_slot_intensities.csv",
+        "mineral2100/output/HEV_integrated_vehicle/HEV_inventory_40_slots_PARTIAL.csv",
+        "mineral2100/output/reconciled40_CONDITIONAL/baseline_40_CONDITIONAL.csv",
+        "mineral2100/originals/Pelotte*/Data/PowerCap_MI_MS_CF.xlsx",
+        "mineral2100/originals/Pelotte*/Data/Market Share in time - Disag.xlsx",
+        "mineral2100/input/imported/penelope_MS_Motor.csv",
+        "mineral2100/input/imported/battery_chemistry_shares_2020_2100_ASSUMPTION.csv",
+        "mineral2100/output/wind_ree_reconciliation_v6/all_sectors_CONDITIONAL.csv.gz",
+        "mineral2100/output/wind_ree_reconciliation_v6/baseline2020_recalibration.csv",
+        "mineral2100/output/native_vehicle_demand_two_scenarios/annual_vehicle_additions.csv"
+      ]
+    },
+    "vehicle-components": {
+      "entry": "mineral2100/complete_vehicle_components_v4.py",
+      "description": "HEV/FCV部品原単位の既知小計と重複排除",
+      "required": [
+        "mineral2100/input/hev_refinement_v3/reference.json",
+        "mineral2100/input/vehicle_completion_v4/references.json",
+        "mineral2100/input/hev_body_nimh_v3.json"
+      ],
+      "preflight_scope": "主要の設定ファイルのみ。各設定JSON内の参照データも必要。"
+    },
+    "road-units": {
+      "entry": "three_tasks_20261111/resolve_units.py",
+      "description": "モデル定義とnative車両フローの照合",
+      "required": [
+        "mineral2100/input/updated_2611091342/native/updated_native_drivers_Baseline.csv",
+        "mineral2100/input/updated_2611091342/native/updated_native_drivers_300C.csv",
+        "mineral2100/input/updated_2611091342/native/updated_native_road_outputs_Baseline.csv",
+        "mineral2100/input/updated_2611091342/native/updated_native_road_outputs_300C.csv",
+        "three_tasks_20261111/service_v3.txt",
+        "three_tasks_20261111/stock_pinned.txt",
+        "three_tasks_20261111/power_pinned.txt",
+        "three_tasks_20261111/source_2.txt",
+        "three_tasks_20261111/バス貨物車_モデル寿命.csv"
+      ]
+    },
+    "vehicles": {
+      "entry": "vehicle_allsector_extension_20261111/build.py",
+      "description": "バス・貨物・HEV/FCVを含む全部門統合",
+      "required": [
+        "vehicle_allsector_extension_20261111/truck_reference.json",
+        "mineral2100/output/native_vehicle_demand_two_scenarios/penelope_40_slot_intensities.csv",
+        "mineral2100/output/vehicle_completion_v4/inventory_40_PARTIAL.csv",
+        "mineral2100/input/road_vehicle_extension/bus_BEV_selected_materials.csv",
+        "mineral2100/input/vehicle_completion_v4/references.json",
+        "mineral2100/input/hev_body_nimh_v3.json",
+        "mineral2100/output/vehicle_completion_v4/FCV_materials_NOT_elements.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/all_sectors_CONDITIONAL.csv.gz",
+        "three_tasks_20261111/road_annual_source_units_Baseline.csv.gz",
+        "three_tasks_20261111/road_annual_source_units_300C.csv.gz"
+      ]
+    },
+    "substitution2100": {
+      "entry": "technology_substitution_20261111/optimise.py",
+      "description": "2026–2100の部分的代替技術最適化",
+      "required": [
+        "mineral2100/originals/Pelotte*/Data/PowerCap_MI_MS_CF.xlsx",
+        "mineral2100/originals/Pelotte*/Data/Market Share in time - Disag.xlsx",
+        "mineral2100/originals/Pelotte*/Data/EV_MI_MS_Recycling.xlsx",
+        "mineral2100/input/imported/penelope_MS_Motor.csv",
+        "mineral2100/input/imported/battery_chemistry_shares_2020_2100_ASSUMPTION.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/coefficients.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/power_activity.csv",
+        "mineral2100/input/road_vehicle_extension/bus_BEV_selected_materials.csv",
+        "vehicle_allsector_extension_20261111/truck_reference.json",
+        "vehicle_allsector_extension_20261111/all_sectors_extended_CONDITIONAL.csv.gz",
+        "vehicle_allsector_extension_20261111/road_activity_annual.csv",
+        "mineral2100/reserve40_complete_20261111/40鉱物_埋蔵量と推計参照値.csv"
+      ]
+    },
+    "constraints2050": {
+      "entry": "penelope_constraints2050_20261111/calculate.py",
+      "description": "2050専用の資源量・年間生産能力制約。PV拡張前の比較基準",
+      "required": [
+        "mineral2100/originals/Pelotte*/Data/PowerCap_MI_MS_CF.xlsx",
+        "mineral2100/originals/Pelotte*/Data/Market Share in time - Disag.xlsx",
+        "mineral2100/originals/Pelotte*/Data/EV_MI_MS_Recycling.xlsx",
+        "mineral2100/input/imported/penelope_MS_Motor.csv",
+        "mineral2100/input/imported/battery_chemistry_shares_2020_2100_ASSUMPTION.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/coefficients.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/power_activity.csv",
+        "mineral2100/input/road_vehicle_extension/bus_BEV_selected_materials.csv",
+        "vehicle_allsector_extension_20261111/truck_reference.json",
+        "vehicle_allsector_extension_20261111/all_sectors_extended_CONDITIONAL.csv.gz",
+        "vehicle_allsector_extension_20261111/road_activity_annual.csv",
+        "mineral2100/reserve40_complete_20261111/40鉱物_埋蔵量と推計参照値.csv",
+        "mineral2100/originals/Pelotte*/Data/Prod&Demand_Other_Sectors.xlsx",
+        "mineral2100/originals/Pelotte*/IAM_Techno_Optimisation.py"
+      ]
+    },
+    "pv-revision": {
+      "entry": "pv_storage_revision_20261111/calculate.py",
+      "description": "PV方式全体の変更、IEA蓄電置換、遡及比較",
+      "required": [
+        "mineral2100/originals/Pelotte*/Data/PowerCap_MI_MS_CF.xlsx",
+        "mineral2100/originals/Pelotte*/Data/Market Share in time - Disag.xlsx",
+        "mineral2100/originals/Pelotte*/Data/EV_MI_MS_Recycling.xlsx",
+        "mineral2100/input/imported/penelope_MS_Motor.csv",
+        "mineral2100/input/imported/battery_chemistry_shares_2020_2100_ASSUMPTION.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/coefficients.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/power_activity.csv",
+        "mineral2100/input/road_vehicle_extension/bus_BEV_selected_materials.csv",
+        "vehicle_allsector_extension_20261111/truck_reference.json",
+        "vehicle_allsector_extension_20261111/all_sectors_extended_CONDITIONAL.csv.gz",
+        "vehicle_allsector_extension_20261111/road_activity_annual.csv",
+        "mineral2100/reserve40_complete_20261111/40鉱物_埋蔵量と推計参照値.csv",
+        "mineral2100/originals/Pelotte*/Data/Prod&Demand_Other_Sectors.xlsx",
+        "mineral2100/originals/Pelotte*/IAM_Techno_Optimisation.py",
+        "mineral2100/input/imported/wei_intensity_rows.csv"
+      ]
+    },
+    "reserves": {
+      "entry": "mineral2100/reserve40_complete_20261111/build.py",
+      "description": "40枠の埋蔵量・条件付き参照量台帳作成",
+      "required": [
+        "mineral2100/wei_style_reserves_20261110/40鉱物_Wei方式の埋蔵量参照値.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/all_sectors_CONDITIONAL.csv.gz"
+      ]
+    },
+    "export40": {
+      "entry": "final_mineral40_20261111/build.py",
+      "description": "全部門40鉱物と参照量のExcel集計。PV修正前の集計版",
+      "required": [
+        "vehicle_allsector_extension_20261111/all_sectors_extended_CONDITIONAL.csv.gz",
+        "mineral2100/reserve40_complete_20261111/40鉱物_埋蔵量と推計参照値.csv",
+        "technology_substitution_20261111/all_sectors_with_substitution_CONDITIONAL.csv.gz"
+      ],
+      "preflight_scope": "主要集計入力のみ。詳細はソースのread_csv/read_excel参照。"
+    }
+  }
+}

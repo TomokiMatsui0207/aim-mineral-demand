@@ -37,3 +37,14 @@ venv/
 .vscode/
 # Only deliberately synthetic input examples may be tracked.
 !/examples/synthetic_inputs.csv
+
+# Latest code snapshot: keep private fixtures and generated artifacts out of Git.
+/analysis/latest/**/input/
+/analysis/latest/**/originals/
+/analysis/latest/**/output/
+/analysis/latest/**/results*/
+/analysis/latest/**/*.json
+!/analysis/latest/SNAPSHOT.json
+/analysis/latest/**/*.txt
+/analysis/latest/**/*.md
+/analysis/latest/**/*.docx
