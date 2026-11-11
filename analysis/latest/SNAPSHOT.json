@@ -254,6 +254,20 @@
       "source_sha256": "6aa9deab2461379e87beb5843d255424cb5066b9bb9156f7faa6d206b7d9775a",
       "public_sha256": "348b80ff26133bb28ef102c34aa1bfa52c450fea1e61a68ccb238eaa0977333d",
       "changes": "workspace root relative to latest snapshot; numerical logic unchanged"
+    },
+    {
+      "file": "analysis/latest/scenario32_20261111/calculate.py",
+      "source": "scenario32_20261111/calculate.py",
+      "source_sha256": "e434a6f24d03e11eacc394b210483c35cf06eb623b339460c2ac000c403a1d17",
+      "public_sha256": "35226849cd64ef6082c1d6fdf2bd57dc55895295b0b751d126316b49c9fde892",
+      "changes": "workspace root relocated only"
+    },
+    {
+      "file": "analysis/latest/scenario32_20261111/test_accounts.py",
+      "source": "scenario32_20261111/test_accounts.py",
+      "source_sha256": "23c590fafb7ea12ea3b52e7b9c19c852bc9ee8309e4c9ba4522e3569500c76a8",
+      "public_sha256": "23c590fafb7ea12ea3b52e7b9c19c852bc9ee8309e4c9ba4522e3569500c76a8",
+      "changes": "workspace root relocated only"
     }
   ],
   "current_reporting_scope": "32 minerals shared with Penelope; C, La, Ce, Mg, Ti, Sc, Pt, Ir deferred; historical40 code retained"

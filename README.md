@@ -16,6 +16,14 @@ python scripts/run_latest.py --stage results32 --check
 
 32鉱物へ絞っても、全材料の原単位が確定したことにはなりません。入力と数値結果は非公開です。
 
+## 32鉱物の仮定ケース計算
+
+[8ケースの仮定・物質収支・実行方法](docs/SCENARIOS32.md)を追加しました。製品に必要な量、再生材使用量、新規一次材料必要量、採掘段階の元素換算量を区別します。ケースは確率・信頼区間ではなく、未知の原単位が実測で確定した意味でもありません。
+
+```bash
+python scripts/run_latest.py --stage scenarios32 --check
+```
+
 ## 最新追加版（2026-11-11）
 
 更新版AIMへの対応、HEV/FCV・バス・貨物車、埋蔵量台帳の作成処理、2050年制約最適化、PV方式・IEA蓄電比較のコードを`analysis/latest/`に追加しました。[収録範囲と実行手順](docs/LATEST.md)を参照してください。

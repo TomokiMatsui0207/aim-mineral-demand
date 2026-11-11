@@ -155,6 +155,30 @@
         "mineral2100/originals/Pelotte*/Data/Prod&Demand_Other_Sectors.xlsx",
         "mineral2100/reserve40_complete_20261111/40鉱物_埋蔵量と推計参照値.csv"
       ]
+    },
+    "scenarios32": {
+      "entry": "scenario32_20261111/calculate.py",
+      "description": "残る課題を仮定化した8ケース。製品・回収・一次必要量を分ける。",
+      "required": [
+        "vehicle_allsector_extension_20261111/all_sectors_extended_CONDITIONAL.csv.gz",
+        "vehicle_allsector_extension_20261111/vehicle_inventory_40_PARTIAL.csv.gz",
+        "vehicle_allsector_extension_20261111/road_activity_annual.csv",
+        "vehicle_allsector_extension_20261111/truck_reference.json",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/coefficients.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/power_activity.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/battery_native_activity.csv",
+        "mineral2100/update_comparison_20261110/results_updated_native_all_sectors/hydrogen_native_activity.csv",
+        "pv_storage_revision_20261111/PV_technology_coefficients_t_per_GW.csv",
+        "mineral2100/input/imported/battery_chemistry_shares_2020_2100_ASSUMPTION.csv",
+        "mineral2100/input/imported/penelope_Metal_Intensity_Reduction.csv",
+        "mineral2100/input/road_vehicle_extension/bus_BEV_selected_materials.csv",
+        "mineral2100/output/vehicle_completion_v4/component_inventory.csv",
+        "mineral2100/output/vehicle_completion_v4/FCV_materials_NOT_elements.csv",
+        "penelope_constraints2050_20261111/production_original_formula.csv",
+        "mineral2100/originals/Pelotte*/Data/EV_MI_MS_Recycling.xlsx",
+        "mineral2100/originals/Pelotte*/Data/Prod&Demand_Other_Sectors.xlsx",
+        "mineral2100/reserve40_complete_20261111/40鉱物_埋蔵量と推計参照値.csv"
+      ]
     }
   },
   "current_reporting_scope": "common32"
